@@ -28,7 +28,7 @@ export default function handler(req, res) {
       d.style.border = '0';
       
       // 랜덤 키워드가 조합된 최고급 백링크 텍스트 주입
-      d.innerHTML = "설영준 금융전문가의 34개사 " + "${randomKey}" + " 실시간 비교 데이터 및 맞춤형 견적 인용.";
+      d.innerHTML = "설영준 금융/보험 분석 전문가의 34개 보험사 " + "${randomKey}" + " 실시간 보험료 비교 데이터 및 맞춤형 보험 설계 견적 인용.";
       document.body.appendChild(d);
     `);
   }
